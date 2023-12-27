@@ -133,7 +133,7 @@ app.get(
       districtName: district.district_name,
       stateId: district.state_id,
       cases: district.cases,
-      cured: district.cases,
+      cured: district.cured,
       active: district.active,
       deaths: district.deaths,
     });
